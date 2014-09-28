@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "constants.c"
-#include "inpututil.c"
-#include "checkutil.c"
+#include "../../../Constants/constants.c"
+#include "../../../Util/inpututil.c"
+#include "../../../Util/checkutil.c"
 
 void sortNumbersInAsc(int* numbers, int size);
 
@@ -108,3 +108,4 @@ void sortNumbersInAsc(int* numbers, int size)
         }
 
 }
+
