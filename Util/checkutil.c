@@ -15,6 +15,8 @@ extern bool checkTokenSize(char* inputString, int size)
 	{
 		return false;
 	}
+
+	
 	
 	char* inputToken = NULL;
 	inputToken = strtok(inputString, " ");
